@@ -1,31 +1,30 @@
 # 📘 Projetos em Linguagem C
 
-Repositório criado para armazenar exercícios e mini projetos desenvolvidos durante meu aprendizado na linguagem C. A maioria dos projetos foram feitos para a faculdade de Análise e Desenvolvimento de Sistemas (ADS).
+Repositório destinado ao armazenamento de exercícios e mini projetos desenvolvidos em linguagem C durante minha graduação em Análise e Desenvolvimento de Sistemas.
 
-## 🧠 Conteúdos abordados
+## 🧠 Temas abordados
 
-- Estruturas de decisão (`if`, `switch`)
-- Estruturas de repetição (`while`, `do while`, `for`)
-- Funções
-- Validação de entrada
-- Cálculo de média
-- Sistemas interativos com menu
+- Estruturas de decisão (`if`, `else`, `switch`)
+- Laços de repetição (`for`, `while`, `do while`)
+- Funções e validação de entrada
+- Cálculo de médias e lógicas condicionais
+- Sistemas com menus interativos
 
-## 📂 Estrutura
+## 🗂️ Projetos incluídos
 
-Cada arquivo `.c` representa um projeto ou exercício individual, como por exemplo:
+| Arquivo                          | Descrição                                                  |
+|----------------------------------|-------------------------------------------------------------|
+| `media_aluno_repeticao.c`        | Calcula a média de um aluno com opção de repetição         |
+| `sistema_af.c`                   | Substitui nota pela Avaliação Final, se necessário         |
+| `validador_notas.c`              | Verifica se o usuário digitou notas entre 0 e 10           |
+| `menu_opcoes_notas.c`            | Menu interativo para cálculos escolares                    |
 
-| Arquivo                | Descrição                                      |
-|------------------------|-----------------------------------------------|
-| `media_simples.c`      | Calcula a média de 3 notas com repetição       |
-| `sistema_af.c`         | Sistema de média com Avaliação Final (AF)     |
-| `validador_notas.c`    | Verifica se notas estão entre 0 e 10          |
-| `menu_estudantil.c`    | Menu com opções de cadastro e cálculos        |
+> Cada arquivo está comentado para facilitar o entendimento.
 
-## 🛠️ Como compilar
+## 🚀 Como compilar
 
-Você pode compilar qualquer arquivo usando `gcc`:
+Você pode compilar e executar os programas via terminal usando o GCC:
 
 ```bash
-gcc nome_do_arquivo.c -o nome_do_executavel
-./nome_do_executavel
+gcc nome_do_arquivo.c -o executavel
+./executavel
